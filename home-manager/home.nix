@@ -85,7 +85,6 @@
     # Containerization
     docker_25
     podman
-    podman-tui
     # Database management
     dbeaver
   ];
