@@ -52,6 +52,38 @@
   programs.home-manager.enable = true;
   programs.git.enable = true;
 
+  home.packages = with pkgs; [
+    # Social networks
+    telegram-desktop
+    # Browsing
+    firefox
+    # Editors & IDEs
+    vscodium
+    jetbrains.rider
+    jetbrains.pycharm-professional
+    jetbrains.idea-ultimate
+    # Office
+    libreoffice-fresh
+    # File management
+    seafile-client
+    # Passwords
+    keepassxc
+    # DE
+    gnome.gnome-tweaks
+    # Terminal
+    guake
+    # Development SDKs
+    temurin-bin-21
+    dotnet-sdk_8
+    python312
+    # Containerization
+    docker_25
+    podman
+    podman-tui
+    # Database management
+    dbeaver
+  ];
+
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";
 
