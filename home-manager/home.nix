@@ -55,6 +55,7 @@
   home.packages = with pkgs; [
     # Social networks
     telegram-desktop
+    vesktop
     # Browsing
     firefox
     # Editors & IDEs
@@ -71,7 +72,12 @@
     # DE
     gnome.gnome-tweaks
     # Terminal
-    guake
+    tilda
+    neofetch
+    rsync
+    rclone
+    ncdu
+    httpie
     # Development SDKs
     temurin-bin-21
     dotnet-sdk_8

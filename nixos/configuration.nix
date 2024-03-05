@@ -124,7 +124,6 @@
     micro
     curl
     wget
-    httpie
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
