@@ -15,10 +15,13 @@
     libreoffice-fresh
     # File management
     seafile-client
+    filezilla
     # Passwords
     keepassxc
-    # DE
+    # Utils
     gnome.gnome-tweaks
+    libqalculate
+    qalculate-gtk
     # Terminal
     tilda
     neofetch
@@ -28,10 +31,12 @@
     temurin-bin-21
     dotnet-sdk_8
     python312
-    # Containerization
-    docker_25
-    podman
     # Database management
     dbeaver
+    # Art (2D and 3D)
+    blender
+    aseprite
+    gimp
+    inkscape
   ];
 }

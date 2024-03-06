@@ -12,6 +12,7 @@
       ./desktop/xserver.nix
       ./../system/containerization.nix
       ./../system/syspkgs.nix
+      ./../system/virtualization.nix
       inputs.home-manager.nixosModules.home-manager
     ];
 
