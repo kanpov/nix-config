@@ -22,6 +22,7 @@
     gnome.gnome-tweaks
     libqalculate
     qalculate-gtk
+    lollypop
     # Terminal
     tilda
     neofetch
@@ -38,5 +39,10 @@
     aseprite
     gimp
     inkscape
+    # Learning
+    obsidian
+    anki
+    texliveSmall
+    texstudio
   ];
 }
