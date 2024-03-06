@@ -2,8 +2,11 @@
 {
   environment.systemPackages = with pkgs; [
     git
+    nano
     micro
     curl
     wget
+    httpie
+    ncdu
   ];
 }
