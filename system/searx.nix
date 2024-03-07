@@ -16,6 +16,16 @@
           engine = "wikipedia";
           shortcut = "wp";
         }
+        {
+          name = "google images";
+          engine = "google_images";
+          shortcut = "goi";
+        }
+        {
+          name = "google videos";
+          engine = "google_videos";
+          shortcut = "gov";
+        }
       ];
       server = {
         port = 8888;
