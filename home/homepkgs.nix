@@ -4,8 +4,10 @@
     # Social networks
     telegram-desktop
     vesktop
+    element-desktop
     # Browsing
     firefox
+    tor-browser
     # Editors & IDEs
     vscodium
     jetbrains.rider
@@ -23,6 +25,7 @@
     libqalculate
     qalculate-gtk
     lollypop
+    calibre
     # Terminal
     tilda
     neofetch
