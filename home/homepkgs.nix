@@ -21,14 +21,14 @@
     qbittorrent
     # Passwords
     keepassxc
-    # Utils
-    gnome.gnome-tweaks
-    libqalculate
-    qalculate-gtk
-    lollypop
+    # Reading
     calibre
+    # Music & Audio
+    vlc
+    # Screenshots
+    flameshot
     # Terminal
-    tilda
+    yakuake
     neofetch
     rsync
     rclone
@@ -44,6 +44,8 @@
     gimp
     inkscape
     # Learning
+    libqalculate
+    qalculate-qt
     obsidian
     anki
     texliveSmall

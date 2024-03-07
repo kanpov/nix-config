@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, outputs, ... }:
+{ self, config, pkgs, inputs, outputs, ... }:
 {
   imports =
     [
@@ -17,6 +17,10 @@
       ./../system/virtualization.nix
       inputs.home-manager.nixosModules.home-manager
     ];
+
+  nixpkgs.overlays = [
+    inputs.nix-alien.overlays.default
+  ];
 
   nixpkgs.config.allowUnfree = true;
   system.stateVersion = "23.11";
