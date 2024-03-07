@@ -18,10 +18,6 @@
       inputs.home-manager.nixosModules.home-manager
     ];
 
-  nixpkgs.overlays = [
-    inputs.nix-alien.overlays.default
-  ];
-
   nixpkgs.config.allowUnfree = true;
   system.stateVersion = "23.11";
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

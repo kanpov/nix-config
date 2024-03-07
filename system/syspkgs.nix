@@ -8,7 +8,5 @@
     wget
     httpie
     ncdu
-    nix-alien
   ];
-  programs.nix-ld.enable = true;
 }
