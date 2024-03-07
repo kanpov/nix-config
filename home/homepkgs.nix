@@ -18,6 +18,7 @@
     # File management
     seafile-client
     filezilla
+    qbittorrent
     # Passwords
     keepassxc
     # Utils

@@ -12,9 +12,9 @@
       ./desktop/users.nix
       ./desktop/xserver.nix
       ./../system/containerization.nix
+      ./../system/searx.nix
       ./../system/syspkgs.nix
       ./../system/virtualization.nix
-      ./../services/searx.nix
       inputs.home-manager.nixosModules.home-manager
     ];
 
