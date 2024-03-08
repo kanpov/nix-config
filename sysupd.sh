@@ -17,5 +17,5 @@ then
 fi
 
 sudo nixos-rebuild switch --flake .#nixos
-plasmashell --replace &
+nohup plasmashell --replace &
 echo --- Immediate system update complete ---

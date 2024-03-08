@@ -11,8 +11,10 @@
       ./desktop/locale.nix
       ./desktop/users.nix
       ./desktop/xserver.nix
+      ./../services/postgres.nix
+      ./../services/invidious.nix
+      ./../services/searx.nix
       ./../system/containerization.nix
-      ./../system/searx.nix
       ./../system/syspkgs.nix
       ./../system/virtualization.nix
       inputs.home-manager.nixosModules.home-manager
