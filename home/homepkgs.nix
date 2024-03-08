@@ -32,6 +32,8 @@
     neofetch
     rsync
     rclone
+    # API testing
+    postman
     # Development SDKs
     temurin-bin-21
     dotnet-sdk_8
