@@ -17,5 +17,10 @@ then
 fi
 
 sudo nixos-rebuild switch --flake .#nixos
-nohup plasmashell --replace &
+
+if [[ "$1" != "norestart" ]]
+then
+    nohup plasmashell --replace &
+fi
+
 echo --- Immediate system update complete ---

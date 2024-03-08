@@ -9,7 +9,7 @@
   home-manager = {
     extraSpecialArgs = { inherit inputs outputs; };
     users = {
-      kanpov = import ../../home/home.nix;
+      kanpov = import ../../home;
     };
   };
 }
