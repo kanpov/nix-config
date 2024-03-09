@@ -1,6 +1,7 @@
 { config, pkgs, inputs, outputs, ... }:
 {
   environment.systemPackages = with pkgs; [
+    # CLI necessities on sudo level
     git
     nano
     micro
@@ -8,6 +9,11 @@
     wget
     httpie
     ncdu
+    # Custom-built packages
     (pkgs.callPackage ./../packages/cloak.nix {})
+    # Wine for compat
+    wine64
+    winetricks
+    wineWowPackages.waylandFull
   ];
 }
