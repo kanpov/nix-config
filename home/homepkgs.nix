@@ -7,6 +7,7 @@
     element-desktop
     # Browsing
     firefox
+    librewolf
     tor-browser
     # Editors & IDEs
     vscodium

@@ -36,6 +36,7 @@
         "oadoi.org" = "oadoi.org";
       };
       default_doi_resolver = "oadoi.org";
+      ui.theme_args.simple_style = "dark";
     };
   };
 }
