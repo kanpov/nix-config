@@ -8,5 +8,6 @@
     wget
     httpie
     ncdu
+    (pkgs.callPackage ./../packages/cloak.nix {})
   ];
 }
