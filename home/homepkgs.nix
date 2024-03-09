@@ -29,15 +29,20 @@
     flameshot
     # Terminal
     yakuake
+    # CLI utilities
     neofetch
     rsync
     rclone
+    pipx
+    yt-dlp
+    gh
     # API testing
     postman
     # Development SDKs
     temurin-bin-21
     dotnet-sdk_8
     python312
+    go
     # Database management
     dbeaver
     # Art (2D and 3D)
