@@ -1,7 +1,7 @@
 {
   imports = [
-    ./containerization.nix
+    ./podman.nix
     ./syspkgs.nix
-    ./virtualization.nix
+    ./virt-manager.nix
   ];
 }

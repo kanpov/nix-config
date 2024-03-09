@@ -1,7 +1,7 @@
 cd ~/nix-config
 nixos-generate-config
 cp /etc/nixos/hardware-configuration.nix ~/nix-config/core/hardware/autogen.nix
-git add .
+sudo git add . # sometimes the operation will be refused as non-root
 
 if [[ "$1" == "defer" ]]
 then
