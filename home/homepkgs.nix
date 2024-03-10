@@ -27,9 +27,9 @@
     # Music & Audio
     vlc
     # Screenshots
-    flameshot
+    #flameshot
     # Terminal
-    yakuake
+    guake
     # CLI utilities
     neofetch
     rsync
@@ -37,12 +37,14 @@
     pipx
     yt-dlp
     gh
+    rar
     # API testing
     postman
     # Development SDKs
     temurin-bin-21
     dotnet-sdk_8
     python312
+    mono
     go
     # Database management
     dbeaver
@@ -53,7 +55,7 @@
     inkscape
     # Learning
     libqalculate
-    qalculate-qt
+    qalculate-gtk
     obsidian
     anki
     texliveSmall

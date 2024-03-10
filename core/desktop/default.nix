@@ -1,6 +1,6 @@
 {
   imports = [
-    ./kde.nix
+    ./gnome.nix
     ./locale.nix
     ./users.nix
     ./wayland.nix
