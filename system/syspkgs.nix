@@ -11,9 +11,5 @@
     ncdu
     # Custom-built packages
     (pkgs.callPackage ./../packages/cloak.nix {})
-    # Wine for compat
-    wine64
-    winetricks
-    wineWowPackages.waylandFull
   ];
 }
