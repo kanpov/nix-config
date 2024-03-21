@@ -28,6 +28,7 @@
     calibre
     # Music & Audio
     vlc
+    ffmpeg
     # Screenshots
     spectacle
     # Terminal
