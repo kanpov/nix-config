@@ -15,7 +15,7 @@
     jetbrains.pycharm-professional
     jetbrains.idea-ultimate
     # Office
-    libreoffice-fresh
+    libreoffice-qt
     # File management
     seafile-client
     filezilla
@@ -27,9 +27,9 @@
     # Music & Audio
     vlc
     # Screenshots
-    #flameshot
+    spectacle
     # Terminal
-    guake
+    yakuake
     # CLI utilities
     neofetch
     rsync
@@ -38,27 +38,16 @@
     yt-dlp
     gh
     rar
-    # API testing
-    postman
     # Development SDKs
     temurin-bin-21
     dotnet-sdk_8
     python312
-    mono
     go
-    # Database management
-    dbeaver
-    # Art (2D and 3D)
-    blender
-    aseprite
+    # 2D
     gimp
     inkscape
     # Learning
     libqalculate
-    qalculate-gtk
-    obsidian
-    anki
-    texliveSmall
-    texstudio
+    qalculate-qt
   ];
 }
