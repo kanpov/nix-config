@@ -11,9 +11,11 @@
     tor-browser
     # Editors & IDEs
     vscodium
+    neovim
     jetbrains.rider
     jetbrains.pycharm-professional
     jetbrains.idea-ultimate
+    jetbrains.goland
     # Office
     libreoffice-qt
     # File management
@@ -46,8 +48,13 @@
     # 2D
     gimp
     inkscape
-    # Learning
+    # Calculator
     libqalculate
     qalculate-qt
+    # Learning & Notes
+    anki
+    obsidian
+    texstudio
+    texliveMedium
   ];
 }

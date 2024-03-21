@@ -1,7 +1,7 @@
 {
   imports = [
-    #./postgres.nix
-    #./invidious.nix
-    #./searx.nix
+    ./postgres.nix
+    ./invidious.nix
+    ./searx.nix
   ];
 }
