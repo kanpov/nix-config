@@ -7,7 +7,6 @@
     element-desktop
     # Browsing
     firefox
-    librewolf
     tor-browser
     # Editors & IDEs
     vscodium
@@ -15,7 +14,6 @@
     jetbrains.rider
     jetbrains.pycharm-professional
     jetbrains.idea-ultimate
-    jetbrains.goland
     dbeaver
     # Office
     libreoffice-qt
@@ -46,7 +44,6 @@
     temurin-bin-21
     dotnet-sdk_8
     python312
-    go
     # 2D
     gimp
     inkscape

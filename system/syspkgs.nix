@@ -12,5 +12,7 @@
     htop
     # Custom-built packages
     (pkgs.callPackage ./../packages/cloak.nix {})
+    # Wine for compat with Windows games
+    wineWowPackages.stableFull
   ];
 }
