@@ -1,5 +1,5 @@
 cd ~/nix-config
-nixos-generate-config
+sudo nixos-generate-config
 cp /etc/nixos/hardware-configuration.nix ~/nix-config/core/hardware/autogen.nix
 sudo git add . # sometimes the operation will be refused as non-root
 

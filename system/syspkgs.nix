@@ -9,6 +9,7 @@
     wget
     httpie
     ncdu
+    htop
     # Custom-built packages
     (pkgs.callPackage ./../packages/cloak.nix {})
   ];

@@ -16,6 +16,7 @@
     jetbrains.pycharm-professional
     jetbrains.idea-ultimate
     jetbrains.goland
+    dbeaver
     # Office
     libreoffice-qt
     # File management
@@ -37,10 +38,10 @@
     neofetch
     rsync
     rclone
-    pipx
     yt-dlp
     gh
     rar
+    pgcli
     # Development SDKs
     temurin-bin-21
     dotnet-sdk_8
