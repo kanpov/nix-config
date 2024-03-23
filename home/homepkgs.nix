@@ -14,6 +14,7 @@
     jetbrains.rider
     jetbrains.pycharm-professional
     jetbrains.idea-ultimate
+    jetbrains.goland
     dbeaver
     # Office
     libreoffice-qt
@@ -39,11 +40,14 @@
     yt-dlp
     gh
     rar
+    p7zip
     pgcli
     # Development SDKs
     temurin-bin-21
     dotnet-sdk_8
     python312
+    go
+    go-migrate
     # 2D
     gimp
     inkscape
