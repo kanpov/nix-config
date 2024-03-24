@@ -17,10 +17,11 @@
     inherit (self) outputs;
   in {
     nixosConfigurations = {
-      nixos = nixpkgs.lib.nixosSystem {
+      workstation = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs outputs;};
         modules = [
           ./core/configuration.nix
+          ./hosts/workstation
         ];
       };
     };

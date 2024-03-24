@@ -1,11 +1,10 @@
 cd ~/nix-config
-sudo nixos-generate-config
-cp /etc/nixos/hardware-configuration.nix ~/nix-config/core/hardware/autogen.nix
 sudo git add . # sometimes the operation will be refused as non-root
+host = `cat /etc/hostname`
 
 if [[ "$1" == "defer" ]]
 then
-    sudo nixos-rebuild boot --flake .#nixos
+    sudo nixos-rebuild boot --flake .#$host
     echo --- Deferred system update complete ---
 
     if [[ "$2" == "reboot" ]]
@@ -16,7 +15,7 @@ then
     exit
 fi
 
-sudo nixos-rebuild switch --flake .#nixos
+sudo nixos-rebuild switch --flake .#$host
 
 if [[ "$1" != "norestart" ]]
 then
