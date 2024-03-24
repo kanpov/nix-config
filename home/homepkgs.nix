@@ -27,7 +27,7 @@
     # Reading
     calibre
     # Music & Audio
-    vlc
+    mpv
     ffmpeg
     # Screenshots
     spectacle
