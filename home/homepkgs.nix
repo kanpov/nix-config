@@ -42,10 +42,11 @@
     rar
     p7zip
     pgcli
+    gnumake
     # Development SDKs
     temurin-bin-21
     dotnet-sdk_8
-    python312
+    python312Full
     go
     go-migrate
     # 2D
