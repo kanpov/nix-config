@@ -24,6 +24,13 @@
           ./hosts/workstation
         ];
       };
+      laptop = nixpkgs.lib.nixosSystem {
+        specialArgs = {inherit inputs outputs;};
+        modules = [
+          ./core/configuration.nix
+          ./hosts/laptop
+        ];
+      };
     };
   };
 }

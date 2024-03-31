@@ -49,6 +49,8 @@
     python312Full
     go
     go-migrate
+    # Partitioning
+    gparted
     # 2D
     gimp
     inkscape
